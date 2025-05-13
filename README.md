@@ -21,7 +21,7 @@ Para configurar y ejecutar la página de aterrizaje, sigue estos pasos:
 1. **Clona el repositorio**:
    ```bash
    git clone <repository-url>
-   cd responsive-landing-page
+   cd Landing-page-Playa-Paraiso
    ```
 
 2. **Abre el archivo `index.html`**:
