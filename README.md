@@ -1,11 +1,11 @@
-# Página de Aterrizaje Responsiva
+# Landing page Playa Paraiso
 
 Este proyecto es una página de aterrizaje responsiva que incluye una barra de navegación, secciones de contenido e imágenes obtenidas de varios sitios web. El diseño es adaptable a dispositivos móviles y se ajusta a diferentes tamaños de pantalla.
 
 ## Estructura del Proyecto
 
 ```
-responsive-landing-page
+Landing-page-Playa-Paraiso
 ├── src
 │   ├── index.html        # Documento HTML principal de la página de aterrizaje
 │   ├── style.css         # Estilos CSS para la página de aterrizaje
