@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Open sidebar">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+                <div class="logo">
+            <span class="logo-icon" aria-hidden="true">
+                <!-- SVG de palmera -->
+                <svg width="60" height="60" viewBox="0 0 32 32" fill="none" style="vertical-align: middle;">
+                    <path d="M16 30V18" stroke="#fbb034" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M16 18C16 13 21 10 28 12C25 7 19 7 16 12C13 7 7 7 4 12C11 10 16 13 16 18Z" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M16 18C16 15 13 13 8 14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M16 18C16 15 19 13 24 14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </span>
+            
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <aside class="sidebar" id="sidebar">
+        <button class="close-sidebar" id="close-sidebar" aria-label="Close sidebar">&times;</button>
+        <ul>
+            <li><a href="#home" onclick="closeSidebar()">Home</a></li>
+            <li><a href="#about" onclick="closeSidebar()">About</a></li>
+            <li><a href="#services" onclick="closeSidebar()">Services</a></li>
+            <li><a href="#contact" onclick="closeSidebar()">Contact</a></li>
+        </ul>
+    </aside>
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <header id="home" class="hero">
+        <h1>Bienvenido al Resort de Playa Paraíso</h1>
+        <p>Escapa al paraíso donde el tiempo se detiene y la serenidad te envuelve.</p>
+        <img src="https://www.realhotelsandresorts.com/wp-content/uploads/2024/08/Hotel-Facade_6128-700x467.jpg" alt="Hero Image">
+    </header>
+
+    <section id="about" class="about">
+        <h2>Sobre nosotros</h2>
+        <p>En Resort de Playa Paraíso, 
+            las olas susurran melodías de descanso y 
+            la arena dorada te invita a desconectar del mundo. 
+            Sumérgete en la tranquilidad de nuestras instalaciones, 
+            déjate consentir por nuestros servicios de primera y 
+            redescubre el placer de no hacer nada, 
+            bajo el cálido abrazo del sol caribeño.</p>
+        <img src="https://www.hoteldel.com/wp-content/uploads/2024/01/beach_village_pool_aerial_rbenson_2023_2500x1700-1536x1044.jpg" alt="About Image">
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nuestros servicios</h2>
+        <div class="service-item">
+            <h3>Restaurante "Brisas del Mar"</h3>
+            <p>Deleita tus sentidos en "Brisas del Mar", nuestro exclusivo restaurante frente al océano.</p>
+        </div>
+        <div class="service-item">
+            <h3>"Oasis de Bienestar" Spa</h3>
+            <p>Sumérgete en un mundo de serenidad y revitalización en nuestro "Oasis de Bienestar" Spa.</p>
+        </div>
+        <div class="service-item">
+            <h3>Club de Playa "Arena Dorada"</h3>
+            <p>Vive la vibrante energía del Caribe en nuestro Club de Playa "Arena Dorada".</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactanos</h2>
+                <ul class="contact-list">
+            <li>
+                <strong>Teléfono:</strong> +58 (Número de Teléfono Principal)
+                <br>
+                <span class="contact-horario">Horario de atención: Lunes a Domingo, de 9:00 AM a 6:00 PM (VET)</span>
+            </li>
+            <li>
+                <strong>WhatsApp:</strong> +58 (Número de WhatsApp)
+                <br>
+                <span class="contact-horario">¡Escríbenos en cualquier momento!</span>
+            </li>
+            <li>
+                <strong>Correo Electrónico:</strong> <a href="mailto:info@playaparaiso.com">info@playaparaiso.com</a>
+                <br>
+                <span class="contact-horario">Responderemos a tu consulta en un plazo de 24 horas hábiles.</span>
+            </li>
+        </ul>
+        <img src="https://www.hoteldel.com/wp-content/uploads/2022/09/Shore-House-Hero-Oceanfront-Pool-2500-1700-1536x1044.jpg" alt="Contact Image">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
