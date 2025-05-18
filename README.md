@@ -1,6 +1,6 @@
 # Landing page Playa Paraiso
 
-Este proyecto es una página de aterrizaje responsiva que incluye una barra de navegación, secciones de contenido e imágenes obtenidas de varios sitios web. El diseño es adaptable a dispositivos móviles y se ajusta a diferentes tamaños de pantalla.
+Este proyecto es una página responsive, que incluye una barra de navegación, secciones de contenido e imágenes obtenidas de varios sitios web. El diseño es adaptable a dispositivos móviles y se ajusta a diferentes tamaños de pantalla.
 
 ## Estructura del Proyecto
 
