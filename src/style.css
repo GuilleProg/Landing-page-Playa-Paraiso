@@ -294,7 +294,7 @@ section.visible {
 
 .testimonials blockquote footer {
     font-weight: bold;
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 /* Gallery Section */
